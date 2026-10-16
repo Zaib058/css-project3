@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMINA | Jewelry and Watches</title>
+
+  <!-- fonts from google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- our css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- top menu -->
+  <nav>
+    <div class="logo">LUMINA</div>
+    <ul>
+      <li><a href="#catalog">Catalog</a></li>
+      <li><a href="#why">Why us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- first big screen -->
+  <header class="hero">
+
+    <!-- blurry glowing circles behind the text -->
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+
+    <!-- small floating labels -->
+    <span class="tag tag1">18K Gold</span>
+    <span class="tag tag2">Titanium</span>
+    <span class="tag tag3">Sapphire Glass</span>
+    <span class="tag tag4">Lab Diamonds</span>
+
+    <div class="hero-text">
+      <p class="small-title">Collection 2026</p>
+
+      <!-- every letter is in its own span so each one can move alone -->
+      <h1><span>L</span><span>U</span><span>M</span><span>I</span><span>N</span><span>A</span></h1>
+
+      <p class="intro">Watches and jewelry made for the future. Light, shine and a little bit of magic.</p>
+      <a href="#catalog" class="btn">See collection</a>
+    </div>
+  </header>
+
+  <!-- the moving text strip (same text two times so the loop looks smooth) -->
+  <div class="strip">
+    <div class="strip-text">
+      WATCHES <b>✦</b> RINGS <b>✦</b> PENDANTS <b>✦</b> EARRINGS <b>✦</b> LIMITED EDITION <b>✦</b>
+      WATCHES <b>✦</b> RINGS <b>✦</b> PENDANTS <b>✦</b> EARRINGS <b>✦</b> LIMITED EDITION <b>✦</b>
+    </div>
+  </div>
+
+  <!-- products -->
+  <section id="catalog">
+    <div class="title-box">
+      <h2>The Catalog</h2>
+      <p>Move your mouse over a card</p>
+    </div>
+
+    <div class="grid">
+
+      <!-- style="--glow: ..." gives every card its own glow color -->
+      <article class="card" style="--glow: #00f0ff;">
+        <span class="badge">NEW</span>
+        <div class="card-img">
+          <img class="main" src="images/nova-chrono-1.jpg" alt="Nova Chrono watch">
+          <img class="second" src="images/nova-chrono-2.jpg" alt="">
+        </div>
+        <h3>NOVA CHRONO</h3>
+        <p>Titanium case, sapphire glass and a dial that glows in the dark.</p>
+        <div class="bottom">
+          <span class="price">$2,400</span>
+          <button>+</button>
+        </div>
+      </article>
+
+      <article class="card" style="--glow: #ff9e7a;">
+        <div class="card-img">
+          <img class="main" src="images/aurora-ring-1.jpg" alt="Aurora Ring">
+          <img class="second" src="images/aurora-ring-2.jpg" alt="">
+        </div>
+        <h3>AURORA RING</h3>
+        <p>Oval peach stone on a rose gold band with tiny diamonds.</p>
+        <div class="bottom">
+          <span class="price">$1,850</span>
+          <button>+</button>
+        </div>
+      </article>
+
+      <article class="card" style="--glow: #2affd5;">
+        <span class="badge">LIMITED</span>
+        <div class="card-img">
+          <img class="main" src="images/eclipse-pendant-1.jpg" alt="Eclipse Pendant">
+          <img class="second" src="images/eclipse-pendant-2.jpg" alt="">
+        </div>
+        <h3>ECLIPSE PENDANT</h3>
+        <p>A hand cut gemstone that hangs on a thin silver chain.</p>
+        <div class="bottom">
+          <span class="price">$3,100</span>
+          <button>+</button>
+        </div>
+      </article>
+
+      <article class="card" style="--glow: #00ffa8;">
+        <div class="card-img">
+          <img class="main" src="images/pulse-skeleton-1.jpg" alt="Pulse Skeleton watch">
+          <img class="second" src="images/pulse-skeleton-2.jpg" alt="">
+        </div>
+        <h3>PULSE SKELETON</h3>
+        <p>See the inside of the watch. The gears move right in front of you.</p>
+        <div class="bottom">
+          <span class="price">$4,250</span>
+          <button>+</button>
+        </div>
+      </article>
+
+      <article class="card" style="--glow: #ffc94a;">
+        <span class="badge">BEST SELLER</span>
+        <div class="card-img">
+          <img class="main" src="images/halo-band-1.jpg" alt="Halo Band">
+          <img class="second" src="images/halo-band-2.jpg" alt="">
+        </div>
+        <h3>HALO BAND</h3>
+        <p>Brushed gold band with a row of shiny diamonds.</p>
+        <div class="bottom">
+          <span class="price">$980</span>
+          <button>+</button>
+        </div>
+      </article>
+
+      <article class="card" style="--glow: #b98cff;">
+        <div class="card-img">
+          <img class="main" src="images/prism-earrings-1.jpg" alt="Prism Earrings">
+          <img class="second" src="images/prism-earrings-2.jpg" alt="">
+        </div>
+        <h3>PRISM EARRINGS</h3>
+        <p>Long diamond shaped earrings that catch every bit of light.</p>
+        <div class="bottom">
+          <span class="price">$1,320</span>
+          <button>+</button>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- why us -->
+  <section id="why">
+    <div class="title-box">
+      <h2>Why Lumina</h2>
+      <p>Four things we care about</p>
+    </div>
+
+    <div class="features">
+      <div class="feature"><i>⚙️</i><h4>PRECISION</h4><p>Every watch is tested for 500 hours.</p></div>
+      <div class="feature"><i>💎</i><h4>REAL GEMS</h4><p>Each stone is checked and certified.</p></div>
+      <div class="feature"><i>🚀</i><h4>FAST DELIVERY</h4><p>Safe and insured delivery worldwide.</p></div>
+      <div class="feature"><i>♾️</i><h4>LIFETIME CARE</h4><p>Free cleaning and service forever.</p></div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <h2>Wear the Future</h2>
+    <a href="#" class="btn">Book a visit</a>
+    <small>© 2026 LUMINA. ALL RIGHTS RESERVED</small>
+  </footer>
+
+</body>
+</html>
